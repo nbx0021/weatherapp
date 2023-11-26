@@ -1,0 +1,69 @@
+/* Add your CSS styles here */
+.container.mt-5 {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 70px;
+}
+
+.card {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.card-body {
+  background-color: #3498db; /* Blue */
+}
+
+.card-text {
+  color: #ecf0f1; /* Light gray */
+}
+
+
+/* Main container styles */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-image: url('weatherapp_img1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Input group styles */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* Card styles */
+.card {
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9); /* Light background */
+}
+
+.card-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #2c3e50; /* Dark color for title */
+}
+
+.card-body {
+  padding: 20px;
+  background-color: rgba(52, 152, 219, 0.8); /* Blue background */
+  border-radius: 0 0 20px 20px; /* Rounded bottom corners */
+}
+
+.card-text {
+  color: #ecf0f1; /* Light gray text */
+  font-size: 18px;
+  line-height: 1.6;
+}

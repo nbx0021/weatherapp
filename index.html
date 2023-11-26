@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <h1 class="text-center">Get Your Current Weather ⛅</h1>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="cityInput" placeholder="Enter city name" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Get Weather 🌦️</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-primary text-white">
+                    <div class="card-body">
+                        <h5 class="card-title" id="location">City 🏙️</h5>
+                        <p class="card-text">Temperature: <span id="temperature">--°C</span> 🌡️</p>
+                        <p class="card-text">Humidity: <span id="humidity">--%</span> 💧</p>
+                        <p class="card-text" id="description">Additional Weather Details 🌈</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
